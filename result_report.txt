@@ -1,0 +1,81 @@
+jin@jin-ThinkPad-X1-Carbon-6th:~/桌面/Program_CHES_v2$ ./GCD_CC_compare_224 
+FGCD: 11963798454
+hdFGCD: 10316528527
+EGCD: 12041597938
+EGCD2: 10083523270
+EGCD3: 6973567093
+jin@jin-ThinkPad-X1-Carbon-6th:~/桌面/Program_CHES_v2$ ./GCD_CC_compare_256
+FGCD: 15457778187
+hdFGCD: 13486777965
+EGCD: 14264989679
+EGCD2: 12002418759
+EGCD3: 8139432071
+jin@jin-ThinkPad-X1-Carbon-6th:~/桌面/Program_CHES_v2$ ./GCD_CC_compare_384
+FGCD: 24355439529
+hdFGCD: 21483726832
+EGCD: 21710079635
+EGCD2: 18526823201
+EGCD3: 12451508537
+jin@jin-ThinkPad-X1-Carbon-6th:~/桌面/Program_CHES_v2$ ./MI_CC_compare_224 
+FLT: 20566879563
+FCTMI: 28608095690
+hdFCTMI: 25012736784
+ECTMI2: 22432185502
+ECTMI3: 14225520906
+jin@jin-ThinkPad-X1-Carbon-6th:~/桌面/Program_CHES_v2$ ./MI_CC_compare_256
+FLT: 15464251400
+FCTMI: 32157710886
+hdFCTMI: 27842960350
+ECTMI2: 25330659029
+ECTMI3: 16275824937
+jin@jin-ThinkPad-X1-Carbon-6th:~/桌面/Program_CHES_v2$ ./MI_CC_compare_384
+FLT: 39508947200
+FCTMI: 52456011926
+hdFCTMI: 45258739170
+ECTMI2: 39820420855
+ECTMI3: 25266963801
+
+
+jin@jin-ThinkPad-X1-Carbon-6th:~/桌面/Program_CHES_v2$ gcc GCD_CC_compare_224.c -o GCD_CC_compare_224 -lgmp 
+jin@jin-ThinkPad-X1-Carbon-6th:~/桌面/Program_CHES_v2$ gcc GCD_CC_compare_256.c -o GCD_CC_compare_256 -lgmp 
+jin@jin-ThinkPad-X1-Carbon-6th:~/桌面/Program_CHES_v2$ gcc GCD_CC_compare_384.c -o GCD_CC_compare_384 -lgmp 
+jin@jin-ThinkPad-X1-Carbon-6th:~/桌面/Program_CHES_v2$ gcc MI_CC_compare_224.c -o MI_CC_compare_224 -lgmp 
+jin@jin-ThinkPad-X1-Carbon-6th:~/桌面/Program_CHES_v2$ gcc MI_CC_compare_256.c -o MI_CC_compare_256 -lgmp 
+jin@jin-ThinkPad-X1-Carbon-6th:~/桌面/Program_CHES_v2$ gcc MI_CC_compare_384.c -o MI_CC_compare_384 -lgmp 
+jin@jin-ThinkPad-X1-Carbon-6th:~/桌面/Program_CHES_v2$ ./GCD_CC_compare_224 
+FGCD: 10659155338
+hdFGCD: 9183067115
+EGCD: 10487742604
+EGCD2: 8629595542
+EGCD3: 6972496439
+jin@jin-ThinkPad-X1-Carbon-6th:~/桌面/Program_CHES_v2$ ./GCD_CC_compare_256 
+FGCD: 13431473022
+hdFGCD: 11613630563
+EGCD: 12313236906
+EGCD2: 10148581583
+EGCD3: 8110407386
+jin@jin-ThinkPad-X1-Carbon-6th:~/桌面/Program_CHES_v2$ ./GCD_CC_compare_384
+FGCD: 21090624193
+hdFGCD: 18415614686
+EGCD: 18721284525
+EGCD2: 15504824195
+EGCD3: 12423021405
+jin@jin-ThinkPad-X1-Carbon-6th:~/桌面/Program_CHES_v2$ ./MI_CC_compare_224 
+FLT: 21758434163
+FCTMI: 26269120055
+hdFCTMI: 22228865400
+ECTMI2: 18649634105
+ECTMI3: 14007839618
+jin@jin-ThinkPad-X1-Carbon-6th:~/桌面/Program_CHES_v2$ ./MI_CC_compare_256 
+FLT: 15432752406
+FCTMI: 29577030633
+hdFCTMI: 24795639468
+ECTMI2: 21037943397
+ECTMI3: 16028595697
+jin@jin-ThinkPad-X1-Carbon-6th:~/桌面/Program_CHES_v2$ ./MI_CC_compare_384
+FLT: 38937234747
+FCTMI: 48081605201
+hdFCTMI: 39909152243
+ECTMI2: 32821924544
+ECTMI3: 25037429675
+jin@jin-ThinkPad-X1-Carbon-6th:~/桌面/Program_CHES_v2$
